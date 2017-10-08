@@ -1,0 +1,181 @@
+body {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 22px;
+  min-width: 1200px;
+  min-height: 2255px;
+}
+body {
+  background:#ffffff  50%;
+}
+.main-header {
+  padding-top: 25px;
+  min-height: 436px;
+  margin-bottom: 80px;
+  background-color: #eeeeee;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main-logo {
+  float:left;
+  width: 160px;
+  margin-right: 150px;
+}
+nav {
+  min-height: 38px;
+  float:left;
+  width: 410px;
+  margin-right: 60px;
+}
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: 0;
+
+}
+.main-navigation li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 30px;
+  vertical-align: top;
+
+}
+.main-navigation a{
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  display: block;
+  padding-right: 30px;
+}
+.main-navigation a:hover {
+  color:#ff0000;
+}
+.user-block {
+  float: left;
+  max-width: 110px;
+  padding-top: 3px;
+  padding-left: 35px;
+  position: relative;
+  }
+
+.user-block a{
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+
+}
+.user-block a::before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left:5px;
+}
+.user-block a:hover{
+    color:#ff0000;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+.slider {
+  padding-top: 35px;
+  max-height: 336px;
+}
+.order {
+  min-height: 381px;
+}
+.order-web {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  padding-left: 10px;
+  list-style: none;
+  font-style: 0;
+}
+.order-web b {
+  text-transform: uppercase;
+}
+.order-app {
+  float: left;
+  width: 240px;
+  margin-right: 80px;
+  padding-left: 10px;
+    list-style: none;
+    font-style: 0;
+
+
+}
+.order-app b {
+  text-transform: uppercase;
+}
+.order-pres {
+  float: left;
+  width: 240px;
+    list-style: none;
+    font-style: 0;
+
+}
+.order-pres b {
+  text-transform: uppercase;
+}
+.promo {
+  min-height: 474px;
+}
+.promo-text {
+  float: left;
+  width: 620px;
+  margin-right: 20px;
+}
+.promo-logo {
+  float: left;
+  width: 250px;
+}
+.index-logo {
+  min-height: 168px;
+  min-width: 900px;
+  margin-bottom: 86px;
+}
+.item-1 {
+  float: left;
+  width: 220px;
+  margin-right: 100px;
+  padding-left: 10px;
+
+}
+.item-2 {
+  float: left;
+  width: 220px;
+  margin-right: 100px;
+
+}.item-3 {
+  float: left;
+  width: 230px;
+
+}
+.map {
+  min-height: 416px;
+  min-width: 1200px;
+}
+.addres {
+
+}
+.footer {
+  min-width: 1200px;
+  min-height: 217px;
+}
+.footer-soc {
+  float: left;
+  padding-left: 160px;
+  width: 240px;
+  margin-right: 80px;
+}
+.footer-text {
+  float: left;
+  width: 570px;
+}

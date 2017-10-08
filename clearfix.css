@@ -1,0 +1,7 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+/*Добавляешь класс cleafix в родительский элемент который содержит float-элементы*/

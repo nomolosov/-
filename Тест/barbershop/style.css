@@ -1,0 +1,62 @@
+body {
+  height: 100%;
+  background: url("barbershop-index.jpg");
+  background-position: center top;
+  color: white;
+}
+header {
+  background-color: black;
+}
+.main-header {
+  width: 60%;
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+  flex-wrap:wrap-reverse;
+}
+.main-navigation {
+  flex-basis: 700px;
+  height: inherit;
+  align-items:baseline;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.main-navigation li {
+  display: inline-block;
+    height: inherit;
+    padding: 20px 20px;
+}
+.user-block{
+  flex-basis: auto;
+  height: inherit;
+      padding: 20px 20px;
+}
+.main-logo {
+
+  height: 300px;
+  width:500px;
+}
+.preference {
+  width: 50%;
+  display: flex;
+  justify-content:space-around;
+  margin: auto;
+  flex-wrap:wrap;
+  margin-bottom: 200px;
+}
+.row {
+  flex-basis: 300px;
+  margin: auto;
+}
+.content {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.col {
+  width: 50%;
+}
